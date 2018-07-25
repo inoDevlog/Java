@@ -17,5 +17,4 @@ public class StringEx {
 		System.out.println("" + 7 + 7);
 
 	}
-
 }
