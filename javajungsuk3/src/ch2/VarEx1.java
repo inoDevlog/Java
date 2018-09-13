@@ -14,6 +14,10 @@ public class VarEx1 {
 
 		System.out.println(year);
 		System.out.println(age);
+		
+		year = 15;
+		
+		System.out.println(year);
 
 	}
 }
