@@ -6,6 +6,11 @@ public class OperatorEx1 {
 		// TODO Auto-generated method stub
 		int i = 5;
 		i++;
+		System.out.println(i);
+		
+		i=5;
+		++i;
+		System.out.println(i);
 
 	}
 
