@@ -8,5 +8,4 @@ public class OperatorEx3 {
 		System.out.println(++j);
 		System.out.println("i = " + i + ", j = " + j);
 	}
-
 }
