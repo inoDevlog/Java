@@ -11,5 +11,7 @@ public class VarEx2 {
 		x = y;
 		y = tmp;
 		System.out.println(" x: " + x + " y: " + y);
+		
+		float pi = 3.14f;
 	}
 }
