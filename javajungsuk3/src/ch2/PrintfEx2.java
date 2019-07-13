@@ -10,6 +10,7 @@ public class PrintfEx2 {
 		double d = 1.123456789;
 
 		System.out.printf("f1=%f, %e, %g%n", f1, f1, f1);
+		System.out.printf("f1=%f, %e, %g%n", f1, f1, f1);
 		System.out.printf("f2=%f, %e, %g%n", f2, f2, f2);
 		System.out.printf("f3=%f, %e, %g%n", f3, f3, f3);
 		System.out.println();
