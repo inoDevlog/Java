@@ -12,5 +12,9 @@ public class OperatorEx2 {
 		j = 0;
 		j = ++i; // ++ 후에 대입
 		System.out.println("j=i++; 실행 후, i=" + i + ", j=" + j);
+		
+		i = j;
+		j = ++i;
+		System.out.println("j=i++; 실행 후, i=" + i + ", j=" + j);
 	}
 }
