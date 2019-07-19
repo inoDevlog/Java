@@ -9,7 +9,5 @@ public class OperatorEx10 {
 		
 		System.out.println(result1);
 		System.out.println(result2);
-		
 	}
-
 }
