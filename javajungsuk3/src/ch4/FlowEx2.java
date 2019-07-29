@@ -16,10 +16,10 @@ public class FlowEx2 {
 			System.out.println("0");
 		}
 
-		if (input != 0) {
+		if (input != 0)
 			System.out.println("not 0");
-			System.out.printf("%d", input);
-		}
+		System.out.printf("%d", input);
+
 	}
 
 }
