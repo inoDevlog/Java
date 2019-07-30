@@ -17,7 +17,6 @@ public class FlowEx5 {
 				opt = '+';
 			} else if (score < 94) {
 				opt = '-';
-
 			}
 		} else if (score >= 80) {
 			grade = 'B';
