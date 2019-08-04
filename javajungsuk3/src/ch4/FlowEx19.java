@@ -7,5 +7,4 @@ public class FlowEx19 {
 				for (int k = 1; k <= 3; k++)
 					System.out.println("" + i + j + k);
 	}
-
 }
