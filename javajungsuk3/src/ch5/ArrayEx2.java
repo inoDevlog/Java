@@ -20,7 +20,7 @@ public class ArrayEx2 {
 		}
 		
 		for (int i = 0; i < iArr1.length; i++) {
-			System.out.print(iArr1[1] + ",");
+			System.out.print(iArr1[i] + ",");
 		}
 		
 		System.out.println();
