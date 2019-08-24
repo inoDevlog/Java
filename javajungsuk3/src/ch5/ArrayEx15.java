@@ -12,6 +12,7 @@ public class ArrayEx15 {
 			result += morse[source.charAt(i) - 'A'];
 		}
 		System.out.println(source);
+		System.out.println(result);
 	}
 
 }
