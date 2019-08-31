@@ -17,5 +17,4 @@ public class ArrayEx18 {
 		}
 		System.out.println("sum=" + sum);
 	}
-
 }
