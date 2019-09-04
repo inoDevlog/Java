@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class ArrayEx20 {
 	public static void main(String[] args) {
 		final int SIZE = 10;
-		int x = 0, y =0;
-		
+		int x = 0, y = 0;
+
 		char[][] board = new char[SIZE][SIZE];
 		byte[][] shipBoard = {
 				{0,0,0,0,0,0,1,0,0},
