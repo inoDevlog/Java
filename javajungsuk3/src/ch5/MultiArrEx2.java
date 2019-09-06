@@ -37,7 +37,8 @@ public class MultiArrEx2 {
 			String tmp = scanner.nextLine();
 			num = Integer.parseInt(tmp);
 
-			outer: for (int i = 0; i < SIZE; i++) {
+			outer:
+			for (int i = 0; i < SIZE; i++) {
 				for (int j = 0; j < SIZE; j++) {
 					if (bingo[i][j] == num) {
 						bingo[i][j] = 0;

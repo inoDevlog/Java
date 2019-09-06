@@ -20,6 +20,7 @@ public class MultiArrEx1 {
 				{0,0,0,0,0,1,1,1,0},
 		};
 		
+		// 1행에 행번호를, 1열에 열번호를 저장한다.
 		for (int i = 1; i < SIZE; i++)
 			board[0][i] = board[i][0] = (char) (i + '0');
 
