@@ -4,13 +4,13 @@ class ReferenceParamEx3 {
 	public static void main(String[] args) {
 		int[] arr = new int[] { 3, 2, 1, 6, 5, 4 };
 
-		printArr(arr);
-		sortArr(arr);
-		printArr(arr);
-		System.out.println("sum=" + sumArr(arr));
+		printArr(arr); // 배열의 모든 요소를 출력
+		sortArr(arr); // 배열을 정렬
+		printArr(arr); // 정렬후 결과를 출력
+		System.out.println("sum=" + sumArr(arr)); // 배열의 총합을 출력
 	}
 
-	static void printArr(int[] arr) {
+	static void printArr(int[] arr) { // 배열의 모든 요소를 출력
 		System.out.print("[");
 
 		for (int i : arr)
