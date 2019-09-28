@@ -37,8 +37,8 @@ class MyMath3 {
 	int add(int[] a) {
 		System.out.println("int add(int[] a) - ");
 		int result = 0;
-		for(int i=0;i<a.length;i++) {
-			result +=a[i];
+		for (int i = 0; i < a.length; i++) {
+			result += a[i];
 		}
 		return result;
 	}
