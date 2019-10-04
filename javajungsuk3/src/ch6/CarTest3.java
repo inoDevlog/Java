@@ -35,5 +35,4 @@ class CarTest3 {
 		System.out.println(c2.color + c2.gearType + c2.door);
 
 	}
-
 }
