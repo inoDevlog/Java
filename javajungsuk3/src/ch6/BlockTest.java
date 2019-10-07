@@ -4,6 +4,7 @@ class BlockTest {
 	static {
 		System.out.println("static { } ");
 	}
+
 	{
 		System.out.println(" { } ");
 	}
