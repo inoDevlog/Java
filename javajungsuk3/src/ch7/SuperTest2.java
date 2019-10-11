@@ -2,16 +2,16 @@ package ch7;
 
 class SuperTest2 {
 	public static void main(String[] args) {
-		Child2 c = new Child2();
+		Child1 c = new Child1();
 		c.method();
 	}
 }
 
-class Parent2 {
+class Parent1 {
 	int x = 10;
 }
 
-class Child2 extends Parent2 {
+class Child1 extends Parent1 {
 	int x = 20;
 
 	void method() {
