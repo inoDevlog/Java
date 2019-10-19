@@ -8,7 +8,7 @@ public class StaticImportEx1 {
 		// System.out.println(Math.random());
 		out.println(random());
 
-		System.out.println("Math.PI :" + Math.PI);
+		// System.out.println("Math.PI :" + Math.PI);
 		out.println("math.PI :" + PI);
 	}
 }
