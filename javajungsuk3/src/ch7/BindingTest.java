@@ -2,8 +2,8 @@ package ch7;
 
 class BindingTest {
 	public static void main(String[] args) {
-		Parent p = new Child();
-		Child c = new Child();
+		Parent2 p = new Child2();
+		Child2 c = new Child2();
 
 		System.out.println("p.x = " + p.x);
 		p.method();
@@ -11,10 +11,9 @@ class BindingTest {
 		System.out.println("c.x = " + c.x);
 		c.method();
 	}
-
 }
 
-class Parent {
+class Parent2 {
 	int x = 100;
 
 	void method() {
@@ -22,7 +21,7 @@ class Parent {
 	}
 }
 
-class Child extends Parent {
+class Child2 extends Parent2 {
 	int x = 200;
 
 	void method() {
