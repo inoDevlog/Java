@@ -12,5 +12,4 @@ class CastingTest2 {
 		car2 = fe;
 		car2.drive();
 	}
-
 }
