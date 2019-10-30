@@ -18,13 +18,13 @@ class Buyer1 {
 
 	void buy(Product p) {
 		if (money < p.price) {
-			System.out.println("ï¿½Ü¾×ºï¿½ï¿½ï¿½");
+			System.out.println("ÀÜ¾×ÀÌ ºÎÁ·ÇÏ¿© ¹°°ÇÀ» »ì ¼ö ¾ø½À´Ï´Ù.");
 			return;
 		}
 
 		money -= p.price;
 		bonusPoint += p.bonusPoint;
-		System.out.println(p + "ï¿½ï¿½ï¿½");
+		System.out.println(p + "À»/¸¦ ±¸ÀÔÇÏ¼Ì½À´Ï´Ù.");
 	}
 
 	void summary() {
@@ -37,8 +37,8 @@ class Buyer1 {
 			sum += item[i].price;
 			itemList += item[i] + ", ";
 		}
-		System.out.println("êµ¬ìž…í•˜ì‹  ë¬¼í’ˆì˜ ì´ê¸ˆì•¡ì€ " + sum + "ë§Œì›ìž…ë‹ˆë‹¤.");
-		System.out.println("êµ¬ìž…í•˜ì‹  ì œí’ˆì€" + itemList + "ìž…ë‹ˆë‹¤.");
+		System.out.println("±¸ÀÔÇÏ½Å ¹°Ç°ÀÇ ÃÑ±Ý¾×Àº " + sum + "¸¸¿øÀÔ´Ï´Ù.");
+		System.out.println("±¸ÀÔÇÏ½Å Á¦Ç°Àº" + itemList + "ÀÔ´Ï´Ù.");
 	}
 }
 
