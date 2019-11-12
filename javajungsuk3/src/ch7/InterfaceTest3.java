@@ -32,6 +32,6 @@ class BBB implements II {
 
 class InstanceManager {
 	public static II getInstance() {
-		return new BBB();
+		return new BBB(); // 다른 인스턴스로 바꾸려면 여기만 변경하면 됨.
 	}
 }
