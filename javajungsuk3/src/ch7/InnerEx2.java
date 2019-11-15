@@ -1,6 +1,7 @@
 package ch7;
 
 class InnerEx2 {
+	
 	class InstanceInner {
 
 	}
