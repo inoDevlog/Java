@@ -1,6 +1,7 @@
 package ch7;
 
 public class InnerEx1 {
+	
 	class InstanceInner {
 		int iv = 100;
 		// static int cv = 100; // Error! static 변수를 선언할 수 없다.
@@ -24,5 +25,4 @@ public class InnerEx1 {
 		System.out.println(InstanceInner.CONST);
 		System.out.println(StaticInner.cv);
 	}
-
 }
