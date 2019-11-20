@@ -12,5 +12,4 @@ class ExceptionEx4 {
 		}
 		System.out.println(6);
 	}
-
 }
