@@ -1,6 +1,6 @@
 package ch8;
 
-class ExceptionEx5 {
+public class ExceptionEx7 {
 	public static void main(String[] args) {
 		System.out.println(1);
 		System.out.println(2);
@@ -9,8 +9,13 @@ class ExceptionEx5 {
 			System.out.println(0 / 0);
 			System.out.println(4);
 		} catch (ArithmeticException ae) {
-			System.out.println(5);
+			if (ae instanceof ArithmeticException)
+				System.out.println("true");
+			System.out.println("ArithmeticException");
+		} catch (Exception e) {
+			System.out.println("Exception");
 		}
 		System.out.println(6);
 	}
+
 }
