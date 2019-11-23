@@ -17,5 +17,4 @@ public class ExceptionEx7 {
 		}
 		System.out.println(6);
 	}
-
 }
