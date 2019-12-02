@@ -23,5 +23,4 @@ class FinallyTest {
 	static void deleteTempFiles() {
 		// 임시파일들을 삭제하는 코드를 적는다.
 	}
-
 }
