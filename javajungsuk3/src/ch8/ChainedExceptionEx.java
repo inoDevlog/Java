@@ -9,7 +9,7 @@ class ChainedExceptionEx {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-	} // main�� ��
+	}
 
 	static void install() throws InstallException {
 		try {
