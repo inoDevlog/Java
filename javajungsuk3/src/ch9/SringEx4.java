@@ -15,5 +15,4 @@ class SringEx4 {
 
 		System.out.println(sj.toString());
 	}
-
 }
